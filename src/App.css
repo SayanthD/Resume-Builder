@@ -1,3 +1,31 @@
 .App {
+  text-align: left;
+}
+
+.home {
   text-align: center;
+}
+
+.header {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.create-button {
+  width: 10em;
+  height: 5em;
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.create-button:hover {
+  transform: translateY(-3px);
+  transition: 10ms;
+  opacity: 1;
+}
+
+.category-header {
+  font-size: 30px;
+  text-decoration: underline;
 }
