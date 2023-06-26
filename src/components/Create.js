@@ -80,6 +80,14 @@ export default function Create() {
                         </label>
                     </div>
 
+                    <div className="skill">
+                        <h4 className="category-header">Skills</h4>
+                        <div className="form-group">
+                            <label for="company">Skills:</label>
+                            <input type="text" className="form-control w-25" placeholder="" name="skills" onChange={handleInputChange} required />
+                        </div>
+                    </div>
+
                     <div className="sumbit-button">
                         <button type="submit" className="btn btn-primary">Create</button>
                     </div>

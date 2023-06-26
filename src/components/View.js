@@ -16,8 +16,8 @@ export default function View() {
                     <div className="card-body">
                         <p>Name: {resume.name}</p>
                         <p>Email: {resume.email}</p>
-                        <p>Address:{resume.address}</p>
-                        <p>Phone:{resume.mobile}</p>
+                        <p>Address: {resume.address}</p>
+                        <p>Phone: {resume.mobile}</p>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ export default function View() {
                     </div>
                 </div>
 
-                <div className="card mb-4">
+                <div className="card">
                     <div className="card-header">
                         <h3>Work Details</h3>
                     </div>
@@ -42,6 +42,15 @@ export default function View() {
                         <p>Position: {resume.position}</p>
                         <p>From: {resume.workfrom}</p>
                         <p>To: {resume.workto}</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-header">
+                        <h3>Skills</h3>
+                    </div>
+                    <div className="card-body">
+                        <p>Skills: {resume.skills}</p>
                     </div>
                 </div>
             </div>
